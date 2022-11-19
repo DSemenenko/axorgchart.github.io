@@ -1,0 +1,19 @@
+.boc-light{
+	height: calc(100vh - 60px)!important;
+	/*background: linear-gradient(3deg, #2c293e, #2f3e5a);*/
+}
+body{
+	margin: 0;
+}
+body .boc-light{
+	font-family: 'Montserrat';
+}
+.Department, .Company{
+	font-weight: bold;
+}
+.logo {
+    height: 30px;
+}
+.filter rect, .filter image, .filter text, .filter use {
+	filter: blur(10px);
+}
